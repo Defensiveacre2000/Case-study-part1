@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+     
+    <div class="announcement">
+      <marquee height="25" id="marqueeStyle">
+        ****Case Study***          MobileNet Vs Microsoft Azure
+      </marquee>
+
+        <img src = "case-studies-banner-4.gif" id="captured_img">
+      
+    <ol start="1">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "bottle" src = "bottle.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure-</b>
+          <span></span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet-</b>
+          <span></span>
+        </h5>
+
+      </div>
+    </ol>
+
+
+    
+    <ol start="2">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "cup" src = "cup.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure-</b>
+          <span></span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet-</b>
+          <span></span>
+        </h5>
+
+      </div>
+    </ol>
+
+
+
+    <ol start="3">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "remote" src = "Remote.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure-</b>
+          <span></span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet-</b>
+          <span></span>
+        </h5>
+
+      </div>
+    </ol>
+
+
+    <ol start="4">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "mouse" src = "mouse.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure-</b>
+          <span></span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet-</b>
+          <span></span>
+        </h5>
+
+      </div>
+    </ol>
+
+    <ol start="5">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "watch" src = "watch.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure-</b>
+          <span></span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet-</b>
+          <span></span>
+        </h5>
+
+      </div>
+    </ol>
+
+    <ol start="6">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "speaker" src = "sound_speaker.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure-</b>
+          <span></span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet-</b>
+          <span></span>
+        </h5>
+
+      </div>
+    </ol>
+
+    <ol start="7"> 
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "doll" src = "doll.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure-</b>
+          <span></span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet-</b>
+          <span></span>
+        </h5>
+
+      </div>
+    </ol>
+
+
+    <ol start="8">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "fan" src = "fan.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure-</b>
+          <span></span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet-</b>
+          <span></span>
+        </h5>
+
+      </div>
+    </ol>
+
+
+    <ol start="9">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "phone" src = "phone.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure-</b>
+          <span></span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet-</b>
+          <span></span>
+        </h5>
+
+      </div>
+    </ol>
+
+    <ol start="10">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "keyboard" src = "keyboard.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure-</b>
+          <span></span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet-</b>
+          <span></span>
+        </h5>
+
+      </div>
+    </ol>
+<br><br>
+<hr>
+    <div class="bob3">
+     <h4>Result - </h4>
+     <hr>
+     <h4>  </h4>
+    </div>
+
+  </body>
+</html>
